@@ -8,7 +8,7 @@ function Menu() {
     <span style={{ width: "100vh" }}>
       {MenuData.map((val) => {
         return (
-          <ListItemButton key={val.title}>
+          <ListItemButton key={val.title} selected={val.title === "Overview"}>
             <span className="padding-5">{val.icon}</span>
             <ListItemText primary={val.title} />
           </ListItemButton>
@@ -18,7 +18,7 @@ function Menu() {
       <span className="bottom-menu">
         {BottomMenuData.map((val) => {
           return (
-            <ListItemButton key={val.title}>
+            <ListItemButton key={val.title} disabled={val.disable}>
               <span className="padding-5">{val.icon}</span>
               <ListItemText primary={val.title} />
             </ListItemButton>

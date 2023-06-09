@@ -1,7 +1,9 @@
 .padding-5{
     padding-right: 5px;
 }
+
 .bottom-menu{
     position: absolute;
     bottom: 10em;
+    color:black;
 }

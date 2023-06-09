@@ -42,6 +42,7 @@ export const BottomMenuData = [
   },
   {
     title: "Logout",
+    disable: true,
     icon: <LogoutIcon />,
   },
 ];

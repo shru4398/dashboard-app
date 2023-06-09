@@ -5,10 +5,10 @@ import Workarea from "../WorkArea/Workarea";
 function Dashboard() {
   return (
     <Grid container spacing={2}>
-      <Grid item xs={3}>
+      <Grid item xs={2}>
         <Menu />
       </Grid>
-      <Grid item xs={9}>
+      <Grid item xs={10}>
         <Workarea />
       </Grid>
     </Grid>

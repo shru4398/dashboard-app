@@ -6,3 +6,20 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.alignRight{
+  display: flex;
+  align-items: flex-end;
+}
+.pieChartDiv div{
+  height: 200px;
+  width: 300px;
+}
+.pieChartDiv button{
+  color:blue;
+  background-color: pink;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  border-radius: 12px;
+}
